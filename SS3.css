@@ -1,0 +1,28 @@
+*{
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.dentist{
+    width: 420px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.highlight{
+    color: #ff6600;
+    margin: 20px;
+}
+
+.highlight::before{
+    content: "⭐";
+}
+
+.color{
+    color: #1eff29;
+}
+
+
+
+
+

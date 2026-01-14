@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initialy-scale=1.0">
+        <title>Feedback Nha Khoa</title>
+        <link rel="stylesheet" href="./SS7.css">
+    </head>
+    <body>
+        <div class="feedback">
+            <h1 class="title">Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+            <label for="name"><strong>Họ và tên</strong></label><br>
+            <input type="text" id="name" name="name" placeholder="Nhập họ tên"><br>
+            
+            <label for="email"><strong>Email</strong></label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+
+            <label for="used"><strong>Dịch vụ đã sử dụng</strong></label><br>
+            <select name="used">
+                <option value="all">Khám răng tổng quát</option>
+            </select><br>
+
+            <label for="appericiate"><strong>Mức độ hài lòng</strong></label><br>
+            <select name="appericiate">
+                <option value="okok">Rất hài lòng</option>
+                <option value="okok">hài lòng</option>
+                <option value="okok">Bình thường</option>
+                <option value="okok">Không hài lòng</option>
+                <option value="okok">Tệ</option>
+            </select><br>
+
+            <label for="note"><strong>Nội dung phản hồi</strong></label><br>
+            <textarea cols="40" rows="6" id="note" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea><br>
+
+            <input type="button" value="Gửi feedback">
+        </div>
+
+    </body>
+</html>

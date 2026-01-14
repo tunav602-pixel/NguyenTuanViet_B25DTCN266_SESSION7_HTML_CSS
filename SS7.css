@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.feedback{
+    border: 1px solid black;
+    width: 450px;
+    height: 600px;
+}
+
+.title{
+    color: #0f766e;
+    text-align: center;
+}
+
+label{
+    color: #1f514a;
+}
+
+input{
+    margin: 5px 10px;
+    padding: 5px 5px;
+    width: 430px;
+}
+
+select{
+    margin:5px 10px;
+    width: 400px;
+}
+
+textarea{
+    margin: 5px 10px;
+}
+
+input[type="button"]{
+    background-color: #0ea5a4;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 0 solid;
+    height: 40px;
+}
